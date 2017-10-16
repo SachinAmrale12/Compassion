@@ -10,6 +10,12 @@ import UIKit
 
 class MyLifeTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var imageview: UIImageView!
+    @IBOutlet weak var subLabel2: UILabel!
+    @IBOutlet weak var subLabel1: UILabel!
+    @IBOutlet weak var headLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

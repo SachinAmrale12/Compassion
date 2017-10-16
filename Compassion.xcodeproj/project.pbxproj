@@ -7,14 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EF208523C18F4F4D282C446 /* Pods_Compassion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE0453468536B334D8BC308 /* Pods_Compassion.framework */; };
+		5C0CAF811F8F34AC00327E2F /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0CAF801F8F34AC00327E2F /* DashBoardViewController.swift */; };
+		5C47F6EA1F9110DE00F0A468 /* MyLifeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47F6E81F9110DE00F0A468 /* MyLifeTableViewCell.swift */; };
+		5C47F6EB1F9110DE00F0A468 /* MyLifeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C47F6E91F9110DE00F0A468 /* MyLifeTableViewCell.xib */; };
+		5C5B796D1F926BF400642212 /* PagerTabIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B796B1F926BF400642212 /* PagerTabIconCell.swift */; };
+		5C5B796E1F926BF400642212 /* PagerTabIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C5B796C1F926BF400642212 /* PagerTabIconCell.xib */; };
+		5C82A56B1F90BC4A0016D669 /* MyPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C82A56A1F90BC4A0016D669 /* MyPhotosViewController.swift */; };
+		5C8F899F1F8F411D00EA4F93 /* ESTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F89981F8F411D00EA4F93 /* ESTabBar.swift */; };
+		5C8F89A01F8F411D00EA4F93 /* ESTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F89991F8F411D00EA4F93 /* ESTabBarController.swift */; };
+		5C8F89A11F8F411D00EA4F93 /* ESTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F899A1F8F411D00EA4F93 /* ESTabBarItem.swift */; };
+		5C8F89A21F8F411D00EA4F93 /* ESTabBarItemBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F899B1F8F411D00EA4F93 /* ESTabBarItemBadgeView.swift */; };
+		5C8F89A31F8F411D00EA4F93 /* ESTabBarItemContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F899C1F8F411D00EA4F93 /* ESTabBarItemContainer.swift */; };
+		5C8F89A41F8F411D00EA4F93 /* ESTabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F899D1F8F411D00EA4F93 /* ESTabBarItemContentView.swift */; };
+		5C8F89A51F8F411D00EA4F93 /* ESTabBarItemMoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F899E1F8F411D00EA4F93 /* ESTabBarItemMoreContentView.swift */; };
+		5C8F89A71F8F442B00EA4F93 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F89A61F8F442B00EA4F93 /* HomeViewController.swift */; };
+		5C8F89A91F8F444100EA4F93 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F89A81F8F444100EA4F93 /* AboutMeViewController.swift */; };
+		5C8F89AB1F8F445B00EA4F93 /* MyProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F89AA1F8F445B00EA4F93 /* MyProjectViewController.swift */; };
+		5C8F89AD1F8F447C00EA4F93 /* MyCommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F89AC1F8F447C00EA4F93 /* MyCommunityViewController.swift */; };
+		5C8F89B01F8F463E00EA4F93 /* ExampleBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F89AE1F8F463E00EA4F93 /* ExampleBasicContentView.swift */; };
+		5C8F89B11F8F463E00EA4F93 /* ExampleIrregularityContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F89AF1F8F463E00EA4F93 /* ExampleIrregularityContentView.swift */; };
+		5C8F89B41F8F472100EA4F93 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8F89B31F8F472100EA4F93 /* pop.framework */; };
+		5C8F89DA1F8F498500EA4F93 /* ExampleBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F89D91F8F498500EA4F93 /* ExampleBouncesContentView.swift */; };
+		5C8F89DB1F8F4A3500EA4F93 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8F89B31F8F472100EA4F93 /* pop.framework */; };
+		5C8F89DC1F8F4A3500EA4F93 /* pop.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8F89B31F8F472100EA4F93 /* pop.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5C8F89DF1F8F649100EA4F93 /* AnimatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F89DE1F8F649100EA4F93 /* AnimatedViewController.swift */; };
+		5C8F89E11F8FCDE200EA4F93 /* ChildCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8F89E01F8FCDE200EA4F93 /* ChildCollectionViewCell.swift */; };
 		5CA30C321F8DD9B700BB6E68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA30C311F8DD9B700BB6E68 /* AppDelegate.swift */; };
 		5CA30C341F8DD9B700BB6E68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA30C331F8DD9B700BB6E68 /* ViewController.swift */; };
 		5CA30C371F8DD9B700BB6E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA30C351F8DD9B700BB6E68 /* Main.storyboard */; };
 		5CA30C391F8DD9B700BB6E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA30C381F8DD9B700BB6E68 /* Assets.xcassets */; };
 		5CA30C3C1F8DD9B700BB6E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA30C3A1F8DD9B700BB6E68 /* LaunchScreen.storyboard */; };
+		5CA30C441F8DEDCE00BB6E68 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA30C431F8DEDCE00BB6E68 /* Extension.swift */; };
+		5CA30C491F8DF5F100BB6E68 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA30C481F8DF5F100BB6E68 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5C8F89DD1F8F4A3500EA4F93 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5C8F89DC1F8F4A3500EA4F93 /* pop.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2097B5BD97DD94E10ADCF181 /* Pods-Compassion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Compassion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Compassion/Pods-Compassion.debug.xcconfig"; sourceTree = "<group>"; };
+		5C0CAF801F8F34AC00327E2F /* DashBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		5C47F6E81F9110DE00F0A468 /* MyLifeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLifeTableViewCell.swift; sourceTree = "<group>"; };
+		5C47F6E91F9110DE00F0A468 /* MyLifeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyLifeTableViewCell.xib; sourceTree = "<group>"; };
+		5C5B796B1F926BF400642212 /* PagerTabIconCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerTabIconCell.swift; sourceTree = "<group>"; };
+		5C5B796C1F926BF400642212 /* PagerTabIconCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PagerTabIconCell.xib; sourceTree = "<group>"; };
+		5C82A56A1F90BC4A0016D669 /* MyPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPhotosViewController.swift; sourceTree = "<group>"; };
+		5C8F89981F8F411D00EA4F93 /* ESTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBar.swift; sourceTree = "<group>"; };
+		5C8F89991F8F411D00EA4F93 /* ESTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarController.swift; sourceTree = "<group>"; };
+		5C8F899A1F8F411D00EA4F93 /* ESTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItem.swift; sourceTree = "<group>"; };
+		5C8F899B1F8F411D00EA4F93 /* ESTabBarItemBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemBadgeView.swift; sourceTree = "<group>"; };
+		5C8F899C1F8F411D00EA4F93 /* ESTabBarItemContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemContainer.swift; sourceTree = "<group>"; };
+		5C8F899D1F8F411D00EA4F93 /* ESTabBarItemContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemContentView.swift; sourceTree = "<group>"; };
+		5C8F899E1F8F411D00EA4F93 /* ESTabBarItemMoreContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemMoreContentView.swift; sourceTree = "<group>"; };
+		5C8F89A61F8F442B00EA4F93 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5C8F89A81F8F444100EA4F93 /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		5C8F89AA1F8F445B00EA4F93 /* MyProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProjectViewController.swift; sourceTree = "<group>"; };
+		5C8F89AC1F8F447C00EA4F93 /* MyCommunityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCommunityViewController.swift; sourceTree = "<group>"; };
+		5C8F89AE1F8F463E00EA4F93 /* ExampleBasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBasicContentView.swift; sourceTree = "<group>"; };
+		5C8F89AF1F8F463E00EA4F93 /* ExampleIrregularityContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleIrregularityContentView.swift; sourceTree = "<group>"; };
+		5C8F89B31F8F472100EA4F93 /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pop.framework; sourceTree = "<group>"; };
+		5C8F89D91F8F498500EA4F93 /* ExampleBouncesContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBouncesContentView.swift; sourceTree = "<group>"; };
+		5C8F89DE1F8F649100EA4F93 /* AnimatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedViewController.swift; sourceTree = "<group>"; };
+		5C8F89E01F8FCDE200EA4F93 /* ChildCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildCollectionViewCell.swift; sourceTree = "<group>"; };
 		5CA30C2E1F8DD9B700BB6E68 /* Compassion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Compassion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA30C311F8DD9B700BB6E68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CA30C331F8DD9B700BB6E68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +88,10 @@
 		5CA30C381F8DD9B700BB6E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CA30C3B1F8DD9B700BB6E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CA30C3D1F8DD9B700BB6E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA30C431F8DEDCE00BB6E68 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		5CA30C481F8DF5F100BB6E68 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		612FAB000C82CCEF10156EEA /* Pods-Compassion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Compassion.release.xcconfig"; path = "Pods/Target Support Files/Pods-Compassion/Pods-Compassion.release.xcconfig"; sourceTree = "<group>"; };
+		DDE0453468536B334D8BC308 /* Pods_Compassion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Compassion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +99,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C8F89DB1F8F4A3500EA4F93 /* pop.framework in Frameworks */,
+				5C8F89B41F8F472100EA4F93 /* pop.framework in Frameworks */,
+				3EF208523C18F4F4D282C446 /* Pods_Compassion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DF0258F2471586D392EE77F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDE0453468536B334D8BC308 /* Pods_Compassion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C47F6E71F9110B600F0A468 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				5C47F6E81F9110DE00F0A468 /* MyLifeTableViewCell.swift */,
+				5C47F6E91F9110DE00F0A468 /* MyLifeTableViewCell.xib */,
+				5C5B796B1F926BF400642212 /* PagerTabIconCell.swift */,
+				5C5B796C1F926BF400642212 /* PagerTabIconCell.xib */,
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
+		5C8F89961F8F40C800EA4F93 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				5C8F89971F8F40FE00EA4F93 /* CustomTabBar */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		5C8F89971F8F40FE00EA4F93 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				5C8F89981F8F411D00EA4F93 /* ESTabBar.swift */,
+				5C8F89991F8F411D00EA4F93 /* ESTabBarController.swift */,
+				5C8F899A1F8F411D00EA4F93 /* ESTabBarItem.swift */,
+				5C8F899B1F8F411D00EA4F93 /* ESTabBarItemBadgeView.swift */,
+				5C8F899C1F8F411D00EA4F93 /* ESTabBarItemContainer.swift */,
+				5C8F899D1F8F411D00EA4F93 /* ESTabBarItemContentView.swift */,
+				5C8F899E1F8F411D00EA4F93 /* ESTabBarItemMoreContentView.swift */,
+				5C8F89AE1F8F463E00EA4F93 /* ExampleBasicContentView.swift */,
+				5C8F89AF1F8F463E00EA4F93 /* ExampleIrregularityContentView.swift */,
+				5C8F89D91F8F498500EA4F93 /* ExampleBouncesContentView.swift */,
+			);
+			name = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		5C8F89B21F8F471200EA4F93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C8F89B31F8F472100EA4F93 /* pop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5CA30C251F8DD9B700BB6E68 = {
 			isa = PBXGroup;
 			children = (
 				5CA30C301F8DD9B700BB6E68 /* Compassion */,
 				5CA30C2F1F8DD9B700BB6E68 /* Products */,
+				9040E073930A19FC0E6E39BF /* Pods */,
+				2DF0258F2471586D392EE77F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +181,60 @@
 		5CA30C301F8DD9B700BB6E68 /* Compassion */ = {
 			isa = PBXGroup;
 			children = (
-				5CA30C311F8DD9B700BB6E68 /* AppDelegate.swift */,
-				5CA30C331F8DD9B700BB6E68 /* ViewController.swift */,
+				5C47F6E71F9110B600F0A468 /* xib */,
+				5C8F89B21F8F471200EA4F93 /* Frameworks */,
+				5C8F89961F8F40C800EA4F93 /* ThirdParty */,
+				5CA30C451F8DEEB600BB6E68 /* AppDelegate */,
+				5CA30C461F8DEEC600BB6E68 /* Extension */,
+				5CA30C471F8DEED500BB6E68 /* ViewControllers */,
 				5CA30C351F8DD9B700BB6E68 /* Main.storyboard */,
 				5CA30C381F8DD9B700BB6E68 /* Assets.xcassets */,
 				5CA30C3A1F8DD9B700BB6E68 /* LaunchScreen.storyboard */,
 				5CA30C3D1F8DD9B700BB6E68 /* Info.plist */,
 			);
 			path = Compassion;
+			sourceTree = "<group>";
+		};
+		5CA30C451F8DEEB600BB6E68 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				5CA30C311F8DD9B700BB6E68 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		5CA30C461F8DEEC600BB6E68 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5CA30C431F8DEDCE00BB6E68 /* Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		5CA30C471F8DEED500BB6E68 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5CA30C331F8DD9B700BB6E68 /* ViewController.swift */,
+				5CA30C481F8DF5F100BB6E68 /* LoginViewController.swift */,
+				5C0CAF801F8F34AC00327E2F /* DashBoardViewController.swift */,
+				5C8F89A61F8F442B00EA4F93 /* HomeViewController.swift */,
+				5C8F89A81F8F444100EA4F93 /* AboutMeViewController.swift */,
+				5C8F89AA1F8F445B00EA4F93 /* MyProjectViewController.swift */,
+				5C8F89AC1F8F447C00EA4F93 /* MyCommunityViewController.swift */,
+				5C8F89DE1F8F649100EA4F93 /* AnimatedViewController.swift */,
+				5C8F89E01F8FCDE200EA4F93 /* ChildCollectionViewCell.swift */,
+				5C82A56A1F90BC4A0016D669 /* MyPhotosViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9040E073930A19FC0E6E39BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2097B5BD97DD94E10ADCF181 /* Pods-Compassion.debug.xcconfig */,
+				612FAB000C82CCEF10156EEA /* Pods-Compassion.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +244,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CA30C401F8DD9B700BB6E68 /* Build configuration list for PBXNativeTarget "Compassion" */;
 			buildPhases = (
+				725A6B73E7CFB79685D1BFE4 /* [CP] Check Pods Manifest.lock */,
 				5CA30C2A1F8DD9B700BB6E68 /* Sources */,
 				5CA30C2B1F8DD9B700BB6E68 /* Frameworks */,
 				5CA30C2C1F8DD9B700BB6E68 /* Resources */,
+				5C8F89DD1F8F4A3500EA4F93 /* Embed Frameworks */,
+				544CBDD4F83E9AE09E3C2301 /* [CP] Embed Pods Frameworks */,
+				E4266359E7B1F36B460D681F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,19 +302,97 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CA30C3C1F8DD9B700BB6E68 /* LaunchScreen.storyboard in Resources */,
+				5C47F6EB1F9110DE00F0A468 /* MyLifeTableViewCell.xib in Resources */,
 				5CA30C391F8DD9B700BB6E68 /* Assets.xcassets in Resources */,
 				5CA30C371F8DD9B700BB6E68 /* Main.storyboard in Resources */,
+				5C5B796E1F926BF400642212 /* PagerTabIconCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		544CBDD4F83E9AE09E3C2301 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Compassion/Pods-Compassion-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Compassion/Pods-Compassion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		725A6B73E7CFB79685D1BFE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Compassion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4266359E7B1F36B460D681F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Compassion/Pods-Compassion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5CA30C2A1F8DD9B700BB6E68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C8F89B11F8F463E00EA4F93 /* ExampleIrregularityContentView.swift in Sources */,
+				5C8F89A11F8F411D00EA4F93 /* ESTabBarItem.swift in Sources */,
+				5C8F89E11F8FCDE200EA4F93 /* ChildCollectionViewCell.swift in Sources */,
+				5C0CAF811F8F34AC00327E2F /* DashBoardViewController.swift in Sources */,
+				5C8F89A91F8F444100EA4F93 /* AboutMeViewController.swift in Sources */,
+				5C8F89A01F8F411D00EA4F93 /* ESTabBarController.swift in Sources */,
+				5C8F89AD1F8F447C00EA4F93 /* MyCommunityViewController.swift in Sources */,
+				5C8F89A21F8F411D00EA4F93 /* ESTabBarItemBadgeView.swift in Sources */,
+				5C8F89A31F8F411D00EA4F93 /* ESTabBarItemContainer.swift in Sources */,
+				5C47F6EA1F9110DE00F0A468 /* MyLifeTableViewCell.swift in Sources */,
+				5C8F899F1F8F411D00EA4F93 /* ESTabBar.swift in Sources */,
+				5CA30C491F8DF5F100BB6E68 /* LoginViewController.swift in Sources */,
+				5CA30C441F8DEDCE00BB6E68 /* Extension.swift in Sources */,
+				5C8F89AB1F8F445B00EA4F93 /* MyProjectViewController.swift in Sources */,
+				5C5B796D1F926BF400642212 /* PagerTabIconCell.swift in Sources */,
+				5C8F89DA1F8F498500EA4F93 /* ExampleBouncesContentView.swift in Sources */,
+				5C8F89A51F8F411D00EA4F93 /* ESTabBarItemMoreContentView.swift in Sources */,
+				5C8F89A41F8F411D00EA4F93 /* ESTabBarItemContentView.swift in Sources */,
+				5C8F89B01F8F463E00EA4F93 /* ExampleBasicContentView.swift in Sources */,
 				5CA30C341F8DD9B700BB6E68 /* ViewController.swift in Sources */,
+				5C8F89DF1F8F649100EA4F93 /* AnimatedViewController.swift in Sources */,
+				5C82A56B1F90BC4A0016D669 /* MyPhotosViewController.swift in Sources */,
+				5C8F89A71F8F442B00EA4F93 /* HomeViewController.swift in Sources */,
 				5CA30C321F8DD9B700BB6E68 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +514,14 @@
 		};
 		5CA30C411F8DD9B700BB6E68 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2097B5BD97DD94E10ADCF181 /* Pods-Compassion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BTT36DS6LY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Compassion",
+				);
 				INFOPLIST_FILE = Compassion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IDBI.Compassion;
@@ -272,9 +532,14 @@
 		};
 		5CA30C421F8DD9B700BB6E68 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 612FAB000C82CCEF10156EEA /* Pods-Compassion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BTT36DS6LY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Compassion",
+				);
 				INFOPLIST_FILE = Compassion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IDBI.Compassion;
@@ -302,6 +567,7 @@
 				5CA30C421F8DD9B700BB6E68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -25,8 +25,8 @@
 import Foundation
 import UIKit
 
-class PagerTabIconCell: UICollectionViewCell {
-
+class PagerTabIconCell: UICollectionViewCell
+{
     @IBOutlet weak var iconImage: UIImageView!
-
+    @IBOutlet weak var iconLabel: UILabel!
 }

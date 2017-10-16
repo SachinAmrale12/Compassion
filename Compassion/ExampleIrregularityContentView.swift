@@ -8,19 +8,25 @@
 
 import UIKit
 import pop
-import ESTabBarController
 
 class ExampleIrregularityBasicContentView: ExampleBouncesContentView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        textColor = UIColor.init(white: 255.0 / 255.0, alpha: 1.0)
-        highlightTextColor = UIColor.init(red: 23/255.0, green: 149/255.0, blue: 158/255.0, alpha: 1.0)
-        iconColor = UIColor.init(white: 255.0 / 255.0, alpha: 1.0)
-        highlightIconColor = UIColor.init(red: 23/255.0, green: 149/255.0, blue: 158/255.0, alpha: 1.0)
-        backdropColor = UIColor.init(red: 10/255.0, green: 66/255.0, blue: 91/255.0, alpha: 1.0)
-        highlightBackdropColor = UIColor.init(red: 10/255.0, green: 66/255.0, blue: 91/255.0, alpha: 1.0)
+//        textColor = UIColor.init(white: 255.0 / 255.0, alpha: 1.0)
+//        highlightTextColor = UIColor.init(red: 23/255.0, green: 149/255.0, blue: 158/255.0, alpha: 1.0)
+//        iconColor = UIColor.init(white: 255.0 / 255.0, alpha: 1.0)
+//        highlightIconColor = UIColor.init(red: 23/255.0, green: 149/255.0, blue: 158/255.0, alpha: 1.0)
+//        backdropColor = UIColor.init(red: 10/255.0, green: 66/255.0, blue: 91/255.0, alpha: 1.0)
+//        highlightBackdropColor = UIColor.init(red: 10/255.0, green: 66/255.0, blue: 91/255.0, alpha: 1.0)
+        
+        textColor = UIColor.lightGray
+        highlightTextColor = UIColor.black
+        iconColor = UIColor.lightGray
+        highlightIconColor = UIColor.black
+        backdropColor = UIColor.white
+        highlightBackdropColor = UIColor.white
     }
     
     public required init?(coder aDecoder: NSCoder) {
@@ -33,11 +39,11 @@ class ExampleIrregularityContentView: ESTabBarItemContentView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        self.imageView.backgroundColor = UIColor.init(red: 23/255.0, green: 149/255.0, blue: 158/255.0, alpha: 1.0)
+        self.imageView.backgroundColor = UIColor(red: (16.0/255.0), green: (86.0/255.0), blue: (165.0/255.0), alpha: 1.0)
         self.imageView.layer.borderWidth = 3.0
-        self.imageView.layer.borderColor = UIColor.init(white: 235 / 255.0, alpha: 1.0).cgColor
+        self.imageView.layer.borderColor = UIColor.white.cgColor
         self.imageView.layer.cornerRadius = 35
-        self.insets = UIEdgeInsetsMake(-32, 0, 0, 0)
+        self.insets = UIEdgeInsetsMake(-25, 0, 0, 0)
         let transform = CGAffineTransform.identity
         self.imageView.transform = transform
         self.superview?.bringSubview(toFront: self)
@@ -62,6 +68,7 @@ class ExampleIrregularityContentView: ESTabBarItemContentView {
     override func updateLayout() {
         super.updateLayout()
         self.imageView.sizeToFit()
+        self.imageView.contentMode = .scaleAspectFit
         self.imageView.center = CGPoint.init(x: self.bounds.size.width / 2.0, y: self.bounds.size.height / 2.0)
     }
     

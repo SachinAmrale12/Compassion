@@ -8,6 +8,17 @@
 
 import UIKit
 
-class ChildCollectionViewCell: UICollectionViewCell {
+class ChildCollectionViewCell: UICollectionViewCell
+{
+    @IBOutlet weak var childImageView       : UIImageView!
+    @IBOutlet weak var childNameLabel       : UILabel!
     
+    override func layoutSubviews()
+    {
+        super.layoutSubviews()
+        self.layoutIfNeeded()
+        childImageView.layer.cornerRadius = childImageView.layer.frame.size.width / 2
+        childImageView.layer.masksToBounds = true
+        
+    }
 }

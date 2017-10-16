@@ -11,31 +11,44 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="2CI-9N-dP3" customClass="YoutubeIconCell" customModule="Example" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="74" height="50"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="2CI-9N-dP3" customClass="PagerTabIconCell" customModule="Compassion" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="132" height="104"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="74" height="50"/>
+                <rect key="frame" x="0.0" y="0.0" width="132" height="104"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tkn-VR-o25">
-                        <rect key="frame" x="20" y="8" width="35" height="35"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vnp-lk-rAd">
+                        <rect key="frame" x="0.0" y="78" width="132" height="21"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="35" id="EUF-rI-9Y8"/>
-                            <constraint firstAttribute="height" constant="35" id="RoA-LT-AHV"/>
+                            <constraint firstAttribute="height" constant="21" id="jtM-WS-2dQ"/>
+                            <constraint firstAttribute="width" constant="132" id="yx7-AR-t0H"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tkn-VR-o25">
+                        <rect key="frame" x="38.5" y="13" width="55" height="55"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="55" id="62y-Ej-3Bj"/>
+                            <constraint firstAttribute="width" constant="55" id="nT4-p8-uBf"/>
                         </constraints>
                     </imageView>
                 </subviews>
             </view>
             <constraints>
-                <constraint firstItem="Tkn-VR-o25" firstAttribute="centerX" secondItem="2CI-9N-dP3" secondAttribute="centerX" id="wav-eA-a2N"/>
-                <constraint firstItem="Tkn-VR-o25" firstAttribute="centerY" secondItem="2CI-9N-dP3" secondAttribute="centerY" id="xV4-vo-sZc"/>
+                <constraint firstItem="vnp-lk-rAd" firstAttribute="top" secondItem="Tkn-VR-o25" secondAttribute="bottom" constant="10" id="13q-6z-SGo"/>
+                <constraint firstItem="vnp-lk-rAd" firstAttribute="centerX" secondItem="2CI-9N-dP3" secondAttribute="centerX" id="8fB-Zn-X0g"/>
+                <constraint firstItem="Tkn-VR-o25" firstAttribute="top" secondItem="2CI-9N-dP3" secondAttribute="top" constant="13" id="QYC-vx-N09"/>
+                <constraint firstItem="Tkn-VR-o25" firstAttribute="centerX" secondItem="2CI-9N-dP3" secondAttribute="centerX" id="atI-uC-lut"/>
             </constraints>
-            <size key="customSize" width="74" height="50"/>
+            <size key="customSize" width="132" height="104"/>
             <connections>
-                <outlet property="iconImage" destination="Tkn-VR-o25" id="7DO-mm-BJX"/>
+                <outlet property="iconImage" destination="Tkn-VR-o25" id="tPt-6U-Epm"/>
+                <outlet property="iconLabel" destination="vnp-lk-rAd" id="EZr-Em-3Ta"/>
             </connections>
-            <point key="canvasLocation" x="317" y="376"/>
+            <point key="canvasLocation" x="346" y="403"/>
         </collectionViewCell>
     </objects>
 </document>
