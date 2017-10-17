@@ -4,17 +4,27 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>HMSegmentedControl.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MXPagerView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MXParallaxHeader.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MXSegmentedPager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Compassion.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>XLPagerTabStrip-XLPagerTabStrip.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>XLPagerTabStrip.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>483BAFD0A6F1F12D62111D9F70B99827</key>
+		<key>28546100F97BDD9F1D3D863522625D5B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>69379E47652991AB6507A9654A1E54D8</key>
+		<key>4BB236B740DD0430E73F237C2376E151</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F2A9C55DB8A0423FF570825B76E267F2</key>
+		<key>7891E2B724C54EF58FB1692B34F1455C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D41F2F37088EE2B724A283C89AC6B567</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E75E5BAC0FE6E4C6A5E5F95EA6807F8A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

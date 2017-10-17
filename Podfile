@@ -5,6 +5,6 @@ target 'Compassion' do
   
   use_frameworks!
 
-  pod 'XLPagerTabStrip', '~> 8.0'
+  pod 'MXSegmentedPager'
 
 end

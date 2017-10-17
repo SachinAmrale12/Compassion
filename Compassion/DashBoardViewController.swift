@@ -49,7 +49,7 @@ class DashBoardViewController: UIViewController {
         }
         
         let v1 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
-        let v2 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "AboutMeViewController") as! AboutMeViewController
+        let v2 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "AboutMeContainerViewController") as! AboutMeContainerViewController
         let v3 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "AnimatedViewController") as! AnimatedViewController
         let v4 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MyProjectViewController") as! MyProjectViewController
         let v5 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MyCommunityViewController") as! MyCommunityViewController

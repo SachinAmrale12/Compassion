@@ -40,6 +40,14 @@
 		5CA30C3C1F8DD9B700BB6E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA30C3A1F8DD9B700BB6E68 /* LaunchScreen.storyboard */; };
 		5CA30C441F8DEDCE00BB6E68 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA30C431F8DEDCE00BB6E68 /* Extension.swift */; };
 		5CA30C491F8DF5F100BB6E68 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA30C481F8DF5F100BB6E68 /* LoginViewController.swift */; };
+		5CDDB3A91F94FDA500F89D62 /* AboutMeContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDDB3A81F94FDA500F89D62 /* AboutMeContainerViewController.swift */; };
+		5CDDB3AB1F94FFB600F89D62 /* AboutMeHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CDDB3AA1F94FFB600F89D62 /* AboutMeHeaderView.xib */; };
+		5CDDB3AD1F95023500F89D62 /* AboutMeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDDB3AC1F95023500F89D62 /* AboutMeHeaderView.swift */; };
+		5CDDB3B41F95253B00F89D62 /* ScrollPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDDB3B31F95253B00F89D62 /* ScrollPager.swift */; };
+		5CDDB3B61F95BF2D00F89D62 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDDB3B51F95BF2D00F89D62 /* TestView.swift */; };
+		5CDDB3B81F95BF3A00F89D62 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CDDB3B71F95BF3A00F89D62 /* View.xib */; };
+		5CDDB3BB1F95C55100F89D62 /* MyLifeHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDDB3B91F95C55100F89D62 /* MyLifeHeaderTableViewCell.swift */; };
+		5CDDB3BC1F95C55100F89D62 /* MyLifeHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CDDB3BA1F95C55100F89D62 /* MyLifeHeaderTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -90,6 +98,14 @@
 		5CA30C3D1F8DD9B700BB6E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CA30C431F8DEDCE00BB6E68 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		5CA30C481F8DF5F100BB6E68 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5CDDB3A81F94FDA500F89D62 /* AboutMeContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeContainerViewController.swift; sourceTree = "<group>"; };
+		5CDDB3AA1F94FFB600F89D62 /* AboutMeHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutMeHeaderView.xib; sourceTree = "<group>"; };
+		5CDDB3AC1F95023500F89D62 /* AboutMeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeHeaderView.swift; sourceTree = "<group>"; };
+		5CDDB3B31F95253B00F89D62 /* ScrollPager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollPager.swift; sourceTree = "<group>"; };
+		5CDDB3B51F95BF2D00F89D62 /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		5CDDB3B71F95BF3A00F89D62 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		5CDDB3B91F95C55100F89D62 /* MyLifeHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLifeHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		5CDDB3BA1F95C55100F89D62 /* MyLifeHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyLifeHeaderTableViewCell.xib; sourceTree = "<group>"; };
 		612FAB000C82CCEF10156EEA /* Pods-Compassion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Compassion.release.xcconfig"; path = "Pods/Target Support Files/Pods-Compassion/Pods-Compassion.release.xcconfig"; sourceTree = "<group>"; };
 		DDE0453468536B334D8BC308 /* Pods_Compassion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Compassion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -121,8 +137,14 @@
 			children = (
 				5C47F6E81F9110DE00F0A468 /* MyLifeTableViewCell.swift */,
 				5C47F6E91F9110DE00F0A468 /* MyLifeTableViewCell.xib */,
+				5CDDB3B91F95C55100F89D62 /* MyLifeHeaderTableViewCell.swift */,
+				5CDDB3BA1F95C55100F89D62 /* MyLifeHeaderTableViewCell.xib */,
 				5C5B796B1F926BF400642212 /* PagerTabIconCell.swift */,
 				5C5B796C1F926BF400642212 /* PagerTabIconCell.xib */,
+				5CDDB3AC1F95023500F89D62 /* AboutMeHeaderView.swift */,
+				5CDDB3AA1F94FFB600F89D62 /* AboutMeHeaderView.xib */,
+				5CDDB3B51F95BF2D00F89D62 /* TestView.swift */,
+				5CDDB3B71F95BF3A00F89D62 /* View.xib */,
 			);
 			name = xib;
 			sourceTree = "<group>";
@@ -130,6 +152,7 @@
 		5C8F89961F8F40C800EA4F93 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				5CDDB3B21F95252D00F89D62 /* Pager */,
 				5C8F89971F8F40FE00EA4F93 /* CustomTabBar */,
 			);
 			name = ThirdParty;
@@ -224,8 +247,17 @@
 				5C8F89DE1F8F649100EA4F93 /* AnimatedViewController.swift */,
 				5C8F89E01F8FCDE200EA4F93 /* ChildCollectionViewCell.swift */,
 				5C82A56A1F90BC4A0016D669 /* MyPhotosViewController.swift */,
+				5CDDB3A81F94FDA500F89D62 /* AboutMeContainerViewController.swift */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5CDDB3B21F95252D00F89D62 /* Pager */ = {
+			isa = PBXGroup;
+			children = (
+				5CDDB3B31F95253B00F89D62 /* ScrollPager.swift */,
+			);
+			name = Pager;
 			sourceTree = "<group>";
 		};
 		9040E073930A19FC0E6E39BF /* Pods */ = {
@@ -301,9 +333,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CDDB3BC1F95C55100F89D62 /* MyLifeHeaderTableViewCell.xib in Resources */,
+				5CDDB3B81F95BF3A00F89D62 /* View.xib in Resources */,
 				5CA30C3C1F8DD9B700BB6E68 /* LaunchScreen.storyboard in Resources */,
 				5C47F6EB1F9110DE00F0A468 /* MyLifeTableViewCell.xib in Resources */,
 				5CA30C391F8DD9B700BB6E68 /* Assets.xcassets in Resources */,
+				5CDDB3AB1F94FFB600F89D62 /* AboutMeHeaderView.xib in Resources */,
 				5CA30C371F8DD9B700BB6E68 /* Main.storyboard in Resources */,
 				5C5B796E1F926BF400642212 /* PagerTabIconCell.xib in Resources */,
 			);
@@ -319,11 +354,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Compassion/Pods-Compassion-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl/HMSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/MXPagerView/MXPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/MXParallaxHeader/MXParallaxHeader.framework",
+				"${BUILT_PRODUCTS_DIR}/MXSegmentedPager/MXSegmentedPager.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXParallaxHeader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXSegmentedPager.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -370,6 +411,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CDDB3B61F95BF2D00F89D62 /* TestView.swift in Sources */,
+				5CDDB3A91F94FDA500F89D62 /* AboutMeContainerViewController.swift in Sources */,
 				5C8F89B11F8F463E00EA4F93 /* ExampleIrregularityContentView.swift in Sources */,
 				5C8F89A11F8F411D00EA4F93 /* ESTabBarItem.swift in Sources */,
 				5C8F89E11F8FCDE200EA4F93 /* ChildCollectionViewCell.swift in Sources */,
@@ -378,6 +421,7 @@
 				5C8F89A01F8F411D00EA4F93 /* ESTabBarController.swift in Sources */,
 				5C8F89AD1F8F447C00EA4F93 /* MyCommunityViewController.swift in Sources */,
 				5C8F89A21F8F411D00EA4F93 /* ESTabBarItemBadgeView.swift in Sources */,
+				5CDDB3AD1F95023500F89D62 /* AboutMeHeaderView.swift in Sources */,
 				5C8F89A31F8F411D00EA4F93 /* ESTabBarItemContainer.swift in Sources */,
 				5C47F6EA1F9110DE00F0A468 /* MyLifeTableViewCell.swift in Sources */,
 				5C8F899F1F8F411D00EA4F93 /* ESTabBar.swift in Sources */,
@@ -389,10 +433,12 @@
 				5C8F89A51F8F411D00EA4F93 /* ESTabBarItemMoreContentView.swift in Sources */,
 				5C8F89A41F8F411D00EA4F93 /* ESTabBarItemContentView.swift in Sources */,
 				5C8F89B01F8F463E00EA4F93 /* ExampleBasicContentView.swift in Sources */,
+				5CDDB3B41F95253B00F89D62 /* ScrollPager.swift in Sources */,
 				5CA30C341F8DD9B700BB6E68 /* ViewController.swift in Sources */,
 				5C8F89DF1F8F649100EA4F93 /* AnimatedViewController.swift in Sources */,
 				5C82A56B1F90BC4A0016D669 /* MyPhotosViewController.swift in Sources */,
 				5C8F89A71F8F442B00EA4F93 /* HomeViewController.swift in Sources */,
+				5CDDB3BB1F95C55100F89D62 /* MyLifeHeaderTableViewCell.swift in Sources */,
 				5CA30C321F8DD9B700BB6E68 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
